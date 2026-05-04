@@ -32,6 +32,7 @@ const PortfolioProvider = ({ children }) => {
       },
     );
   };
+console.log("new yoo");
 
   return (
     <PortfolioContext.Provider
