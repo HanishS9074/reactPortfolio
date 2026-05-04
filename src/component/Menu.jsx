@@ -8,7 +8,7 @@ import Project from "../pages/Project";
 // import images from ".././assets/mindPi7.png"
 import backtopImg from ".././assets/imageBackground.png";
 import { useContext } from "react";
-import { PortfolioContext } from "../context/portfolioContext";
+import { PortfolioContext } from "../context/portfolioContext.jsx";
 import { ScrollLink } from "react-scroll";
 
 const Menu = () => {
@@ -20,7 +20,7 @@ const Menu = () => {
 
   const closeMenuOnMobile = () => {
     if (window.innerWidth < 1024) {
-      // 1024px Tailwind ka 'lg' breakpoint hai
+      // 1024px Tailwind ka 'lg' breakpoint haisav
       handleHamburgar();
     }
   };
