@@ -38,16 +38,24 @@ const Profile = () => {
         <div
           className={`flex ${location.pathname !== "/" ? "hidden" : "flex"} gap-10 my-5 `}
         >
-          <button
+          {/* <button
             className={`bg-transparent border-1 border-black border-solid rounded-xl px-4 py-1 hover:bg-[#fdc435]`}
           >
             Project
-          </button>
-          <button
+          </button> */}
+          {/* <button
             className={`bg-transparent border-1 border-black border-solid rounded-xl px-4 py-1 hover:bg-[#fdc435]`}
           >
             Linkedin
-          </button>
+          </button> */}
+          <a
+            href="https://www.linkedin.com/in/hanish-kumar-589b953ab"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-transparent border-1 border-black border-solid rounded-xl px-4 py-1 hover:bg-[#fdc435] inline-block text-center"
+          >
+            Linkedin
+          </a>
         </div>
       </div>
     </>
